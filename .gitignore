@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# Mac OS
+*.DS_Store
+
+# Build
+*.idea
+*.ycm_extra_conf.py
+*.ycm_extra_conf.pyc
+
+/build
+/tags
+Release
+Debug
