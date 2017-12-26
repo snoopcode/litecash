@@ -1,7 +1,7 @@
 Litecash
 ========
 Copyright (c) 2017 Litecash.
-Portions Copyright (c) 2012-2013 The Cryptonote developers.
+Portions Copyright (c) 2011-2016 The Cryptonote developers.
 
 Introduction
 ============
