@@ -21,6 +21,37 @@ As with many development projects, the repository on Github is considered to be 
 
 **Anyone is welcome to contribute to Litecash's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the "master" branch. In cases where the change is relatively small or does not affect other parts of the codebase it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted, or even directly on the pull request.
 
+Build
+=====
+
+## Unix
+
+### Mac OS
+brew intall git
+brew install cmake
+brew install boost
+
+git clone https://github.com/litecash/litecash.git
+cd litecash
+
+mkdir build
+cd build
+cmake ..
+make
+
+### Linux (Ubuntu...)
+sudo apt-get install git
+sudo apt-get install cmake
+sudo apt-get install libboost-all-dev
+
+git clone https://github.com/litecash/litecash.git
+cd litecash
+
+mkdir build
+cd build
+cmake ..
+make
+
 License
 =======
 See [LICENSE](LICENSE).
