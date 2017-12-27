@@ -24,9 +24,8 @@ As with many development projects, the repository on Github is considered to be 
 Build
 =====
 
-## Unix
-
-### Mac OS
+### Mac OS:
+```
 brew intall git
 brew install cmake
 brew install boost
@@ -38,8 +37,10 @@ mkdir build
 cd build
 cmake ..
 make
+```
 
-### Linux (Ubuntu...)
+### Linux (Ubuntu...):
+```
 sudo apt-get install git
 sudo apt-get install cmake
 sudo apt-get install libboost-all-dev
@@ -51,6 +52,7 @@ mkdir build
 cd build
 cmake ..
 make
+```
 
 License
 =======
