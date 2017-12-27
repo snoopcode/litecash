@@ -104,6 +104,7 @@ __attribute__((unused))
 #endif
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
+  { 1200, "441081332da218172cd9aa5304eb9c5c6125d9aa4db4ba82e67a5c31df28a746" },
 };
 
 } // CryptoNote
