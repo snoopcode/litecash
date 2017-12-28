@@ -44,6 +44,7 @@ make
 sudo apt-get install git
 sudo apt-get install cmake
 sudo apt-get install libboost-all-dev
+sudo apt-get install build-essential
 
 git clone https://github.com/litecash/litecash.git
 cd litecash
